@@ -11,10 +11,6 @@ export default gql`
       password: String
       bio: String
       avatar: Upload
-    ): EditProfileOutput
-  }
-  type EditProfileOutput {
-    ok: Boolean!
-    error: String
+    ): MutationOutput!
   }
 `;
